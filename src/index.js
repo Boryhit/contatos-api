@@ -1,7 +1,5 @@
 import express from "express";
-
 import logMiddleware from "./middleware/logger.js";
-
 import createContato from "./controllers/createContato.js";
 import listContatos from "./controllers/listContatos.js";
 import updateContato from "./controllers/updateContato.js";
